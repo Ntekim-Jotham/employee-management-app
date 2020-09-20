@@ -1,0 +1,20 @@
+
+<nav class="navbar navbar-light bg-light">
+    <span class="navbar-text" style="font-weight:700; font-size: 25px;">
+      Employee Management App
+    </span>
+    <nav class="navbar navbar-light bg-light">
+      <form class="container-fluid justify-content-start">
+        <a class="btn btn-outline-primary mr-2" type="button" routerLinkActive="active" style="margin-left: auto;" routerLink="/employees-list">
+          View Employees
+        </a>
+        <a class="btn btn-sm btn-outline-secondary" type="button" routerLinkActive="active" routerLink="/create-employee">
+          Add Employee
+        </a>
+      </form>
+    </nav>
+  <!-- <a routerLinkActive="active" style="margin-left: auto;" routerLink="/employees-list">View Employees</a>
+  <a routerLinkActive="active" routerLink="/create-employee">Add Employee</a> -->
+</nav>
+
+<router-outlet></router-outlet>
